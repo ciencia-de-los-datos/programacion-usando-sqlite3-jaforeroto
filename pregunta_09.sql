@@ -38,4 +38,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
-SELECT * FROM tbl1 WHILE c21 = (SELECT min(c21) FROM tbl2)
+SELECT * FROM tbl2 WHILE c21 = (SELECT min(c21) FROM tbl2)
